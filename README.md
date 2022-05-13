@@ -5,6 +5,6 @@ In this assignment the code has been re-factored to clean up the original HTML a
 Comments are provided throughout the HTML for major changes and in the CSS for styling descriptions.
 
 
-Deployed website screenshot link: https://gyazo.com/9cd61e44a11e3598b42e0f454fdfe066
+Deployed website screenshot: ![image](https://user-images.githubusercontent.com/44784107/168193055-25857d91-46aa-427c-a644-830f61d99d77.png)
 
 Deployed website on Github pages: https://jwmedeiros.github.io/Module_1_Challenge/
