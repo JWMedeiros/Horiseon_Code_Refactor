@@ -1,0 +1,146 @@
+/*Set the padding and margin of every HTML element to 0 and the box sizing to border-box*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*All backgrounds if not specified will be whiteish color*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Formatting for the head class Header and subsequent parts of the header*/
+.head {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.head h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.head h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Set styles for the rest of the header section, (list element links)*/
+#links {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#links ul {
+    list-style-type: none;
+}
+
+#links ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Set link text to white and decoration to none*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Standardize all paragraph font sizes to 16px*/
+p {
+    font-size: 16px;
+}
+
+/*Sets the display properties of the digital-marketing-meeting image*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Sets images to display on the lefthand side for the float-left class*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Sets the images to display on the right for the float-right class*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Broader styling of the content class section*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Styling for the benefits section*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*Styling for benefit point divs*/
+.benefit-point {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-point h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-point img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Styling for the content-point divs in the content section*/
+.content-point {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-point img {
+    max-height: 200px;
+}
+
+.content-point h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Styling for the End of page footer*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
